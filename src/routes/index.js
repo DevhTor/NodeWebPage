@@ -5,9 +5,18 @@ router.get("/", (req, res) => {
   res.render('partials/index');
 });
 
-router.get("/prueba", (req, res) => {
-  res.render('partials/prueba');
+router.get("/arquitectura", (req, res) => {
+  res.render('partials/arquitectura');
 });
+
+
+
+
+router.get("/cedula", (req, res) => {
+  res.render('partials/cedula');
+});
+
+
 
 //export
 module.exports = router;
