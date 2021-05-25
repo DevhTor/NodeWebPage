@@ -26,7 +26,7 @@ function Menu(p_datos)
             `
                 <ul>
                     <li>
-                        <a href="#">${ valor.hijos[cont-1].titulo}</a>
+                        <a href="${valor.hijos[cont-1].link}">${ valor.hijos[cont-1].titulo}</a>
                     </li>
 
                 </ul>
@@ -40,7 +40,7 @@ function Menu(p_datos)
         `
         
             <li>
-                <a href="#">${ valor.titulo }</a>
+                <a href="${valor.link}">${ valor.titulo }</a>
                 
                 <div> ${hijo} </div>                    
             </li>

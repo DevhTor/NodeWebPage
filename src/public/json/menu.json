@@ -1,18 +1,14 @@
 [
     {
-        "titulo":"Cuentas",
+        "titulo":"Practica 0",
+        "link":"/arquitectura",
         "hijos":
         
             [
+                
                 {
-                    "titulo": "ahorros"
-                },
-                {
-                    "titulo": "Corrientes"
-                },
-
-                {
-                    "titulo": "Ahorros"
+                    "titulo": "Arquitectura Web",
+                    "link":"/arquitectura"
                 }
                 
             ]
@@ -21,81 +17,118 @@
     },
 
     {
-        "titulo":"Inversiones",
+        "titulo":"Practica 1",
+        "link":"/biografia",
         "hijos":
         
             [
                 {
-                    "titulo": "Inversion"
+                    "titulo": "Biografia",
+                    "link":"/biografia"
                 }
                 
             ]
     },
 
     {
-        "titulo":"Tarjetas",
+        "titulo":"Practica 2",
+        "link":"/etiquetas",
         "hijos":
         
             [
                 {
-                    "titulo": "Credito"
-                },
-                {
-                    "titulo": "Debito"
+                    "titulo": "Etiquetas Html",
+                    "link":"/etiquetas"
                 }
                 
             ]
     },
-    
+
     {
-        "titulo":"Prestamos",
+        "titulo":"Practica 3",
+        "link":"/reservas",
         "hijos":
         
             [
                 {
-                    "titulo": "Financieros"
+                    
+                    "titulo": "Menu Dinamico",
+                    "link": "/menu"
+                    
                 },
+
                 {
-                    "titulo": "Hipotecarios"
+                    "titulo": "Validar Cedula",
+                    "link": "/cedula"
                 },
+
                 {
-                    "titulo": "Personales"
+                    "titulo": "Reservas",
+                    "link":"/reservas"
                 }
-            ]
-    },
-    
-    {
-        "titulo":"Seguros",
-        "hijos":
-        
-            [
-                {
-                    "titulo": "Salud"
-                },
-                {
-                    "titulo": "Transito"
-                },
-                {
-                    "titulo": "Vida"
-                }
+                
             ]
     },
 
     {
-        "titulo":"Remesas",
+        "titulo":"Practica 5",
+        "link":"/contactos",
         "hijos":
         
             [
                 {
-                    "titulo": "Dolares"
+                    "titulo": "Form Multipagina",
+                    "link": "/form-multipagina"
                 },
+
                 {
-                    "titulo": "Pesos"
+                    "titulo": "Contactos",
+                    "link":"/contactos"
+                }
+                
+            ]
+    },
+
+    {
+        "titulo":"Practica 6",
+        "link":"/contactos",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Xml",
+                    "link": "/xml"
                 },
+
                 {
-                    "titulo": "Euros"
+                    "titulo": "Json",
+                    "link":"/json"
+                },
+
+                {
+                    "titulo": "Ajax",
+                    "link": "/ajax"
+                },
+
+                {
+                    "titulo": "DataBase",
+                    "link": "/bd"
+                },
+                
+                {
+                    "titulo": "MVC",
+                    "link": "/mvc"
+                },
+
+                {
+                    "titulo": "Servicio Web",
+                    "link": "/servicio-web"
+                },
+
+                {
+                    "titulo": "Spring Framework",
+                    "link": "/spring-framework"
                 }
             ]
     }
-
 ]
