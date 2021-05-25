@@ -1,0 +1,101 @@
+[
+    {
+        "titulo":"Cuentas",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "ahorros"
+                },
+                {
+                    "titulo": "Corrientes"
+                },
+
+                {
+                    "titulo": "Ahorros"
+                }
+                
+            ]
+           
+        
+    },
+
+    {
+        "titulo":"Inversiones",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Inversion"
+                }
+                
+            ]
+    },
+
+    {
+        "titulo":"Tarjetas",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Credito"
+                },
+                {
+                    "titulo": "Debito"
+                }
+                
+            ]
+    },
+    
+    {
+        "titulo":"Prestamos",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Financieros"
+                },
+                {
+                    "titulo": "Hipotecarios"
+                },
+                {
+                    "titulo": "Personales"
+                }
+            ]
+    },
+    
+    {
+        "titulo":"Seguros",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Salud"
+                },
+                {
+                    "titulo": "Transito"
+                },
+                {
+                    "titulo": "Vida"
+                }
+            ]
+    },
+
+    {
+        "titulo":"Remesas",
+        "hijos":
+        
+            [
+                {
+                    "titulo": "Dolares"
+                },
+                {
+                    "titulo": "Pesos"
+                },
+                {
+                    "titulo": "Euros"
+                }
+            ]
+    }
+
+]
