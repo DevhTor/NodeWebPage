@@ -1,0 +1,16 @@
+1. Instalar Node en Windows
+2. npm init --yess //Crea el archivo Json de Configuaracion de la app
+3. npm i express // Framework principal
+4. npm i express-handlebars // Motor De Plantillas (como ejs)
+5. npm i express-session // Guarda una sesion en el servidor
+6. npm 1 mysql // conectarse a la base de datos (con xamp instalado)
+7. npm i express-mysql-session // guarda una sesion en la base de datos
+8. npm i morgan // mostrar en consola las peticiones
+9. npm i bcryptjs // encripta contraseñas
+10. npm i passport // autentificar o logear (con facebook, google..)
+11. npm i passport-local // autentificar localmente
+12. npm i timeago // mostrar fechas pasadas
+13. npm i connect-flash // enviar mensajes entre vistas
+14. npm i express-validator // validar datos
+15. npm i nodemon -D // para desarrollo, capturar cambios en consola
+

@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav {
+    background: #1d85fc;
+    position: relative;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  nav > ul > li {
+    float: left;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 50px;
+    font-size: 1.5em;
+  }
+
+  nav ul li a:hover {
+    background: rgb(5, 10, 255);
+    color: white;
+  }
+
+  nav > ul > li:hover div {
+    display: table;
+  }
+
+  /*SubMenu*/
+  nav ul li div {
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    background: rgb(26, 106, 255);
+
+    box-sizing: border-box;
+    display: none;
+  }
+
+  nav ul li div ul {
+    width: 20%;
+    display: table-cell;
+  }
+
+  /*Encabezado*/
+
+  .Temas {
+    padding: 10px;
+    font-size: 1.8em;
+    text-decoration: none;
+  }
+
+  .Temas {
+    color: rgb(15, 15, 15);
+  }
+
+  .Encabezado {
+    padding-bottom: 20px;
+  }
+
+  .Temas:hover {
+    color: #1d85fc;
+  }
+
+  .banreservas {
+    padding-right: 200px;
+  }
+
+ 
+   .form-login{
+     width: 80px;
+     background:blue;
+     padding: 0;
+   }
+
+  .login{
+    width: 10px;
+    float:left;
+  }
+  
+  .portada-login img{
+    float: left;
+    width:30%;;
+  }

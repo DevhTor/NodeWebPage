@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../Img/FondoLogin.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.login-box{
+    padding: 50px 40px;
+    width:320px;
+    height:420px;
+    background-color: rgba(0,0,  0, 0.9);
+    color: white;
+    position:absolute;
+    top: 50%;
+    left:50%; 
+    transform: translate(-50%, -50%); 
+          
+}
+
+.login-box .userImg{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - 40px);
+    position:absolute;
+    
+
+    
+}
+
+.login-box label{
+    display:block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+.login-box input{
+    width:100%;
+    margin-bottom: 10px;
+    height:30px;
+    font-size: large;
+    font-weight: bold;
+    background:transparent;
+    color: white;
+}
+
+.login-box .submitButton {
+    width:100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 40px 0px; 
+    background: transparent;   
+}
+
+.login-box .submitButton:hover{
+    background-color: rgb(0, 10, 104);
+    
+}
+
+.login-box a{
+    color: white;
+    margin-right: 20px;
+}
