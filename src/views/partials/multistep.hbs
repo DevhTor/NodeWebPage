@@ -1,0 +1,253 @@
+<div class="bodycontainer">
+  <div class="container">
+
+    <h1 class="header">Formulario De Registro</h1>
+
+    <div class="progress-bar">
+
+      <div class="step">
+        <p>Datos Personales</p>
+        <div class="bullet">
+          <span>1</span>
+        </div>
+        <div class="check fas fa-check">
+        </div>
+      </div>
+
+      <div class="step">
+        <p>Datos De Usuario</p>
+        <div class="bullet">
+          <span>2</span>
+        </div>
+        <div class="check fas fa-check">
+        </div>
+      </div>
+
+      <div class="step">
+        <p>Datos De Contacto</p>
+        <div class="bullet">
+          <span>3</span>
+        </div>
+        <div class="check fas fa-check">
+        </div>
+      </div>
+
+      <div class="step">
+        <p>Politicas De Privacidad</p>
+        <div class="bullet">
+          <span>4</span>
+        </div>
+        <div class="check fas fa-check">
+        </div>
+      </div>
+      <!--
+      <div class="step">
+        <p>Registrados</p>
+        <div class="bullet">
+          <span>5</span>
+        </div>
+        <div class="check fas fa-check">
+        </div>
+      
+      </div>
+    -->
+    </div>
+
+    <div class="form-outer">
+      <form action="#">
+
+        <div class="page slide-page">
+          <div class="title"> Datos Personales:</div>
+          <div class="columns">
+            <div class="column">
+              <div class="field">
+                <div class="label">Nombres:</div>
+                <input type="text" required="required">
+              </div>
+              <div class="field">
+                <div class="label">Apellidos:</div>
+                <input type="text">
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                <div class="label">Edad:</div>
+                <input type="text">
+              </div>
+              <div class="field">
+                <div class="label">Sexo:</div>
+                <select>
+                  <option>Hombre</option>
+                  <option>Mujer</option>
+                </select>
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                <div class="label">Fecha De Nacimiento:</div>
+                <input type="date">
+              </div>
+              <div class="field">
+                <div class="label">Profesion:</div>
+                <input type="text">
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <button class="firstNext next">Siguiente</button>
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="title">Datos De Usuario:</div>
+          <div class="columns">
+            <div class="column">
+              <div class="field">
+                <div class="label"></div>
+                {{!-- <input type="text"> --}}
+              </div>
+              <div class="field">
+                <div class="label"></div>
+                {{!-- <input type="text"> --}}
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                <div class="label" style="margin-left: 250px;">Usuario:</div>
+                <input type="text" style="margin-left: 250px;">
+              </div>
+              <div class="field">
+                <div class="label" style="margin-left: 250px;">Contraseña:</div>
+                <input type="password" style="margin-left: 250px;">
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                {{!-- <div class="label"></div>
+                <input type="text"> --}}
+              </div>
+              <div class="field">
+                {{!-- <div class="label"></div>
+                <input type="text"> --}}
+              </div>
+            </div>
+          </div>
+          <div class="field btns">
+            <button class="prev-1 prev">volver</button>
+            <button class="next-1 next">Siguiente</button>
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="title">Datos De Contacto:</div>
+          <div class="columns">
+            <div class="column">
+
+              <div class="field">
+                <div class="label">Calle:</div>
+                <input type="text">
+              </div>
+
+              <div class="field">
+                <div class="label">Sector:</div>
+                <input type="text">
+              </div>
+
+
+            </div>
+
+            <div class="column">
+              <div class="field">
+                <div class="label">Ciudad:</div>
+                <input type="text">
+              </div>
+
+              <div class="field">
+                <div class="label">Pais:</div>
+                <input type="text">
+              </div>
+
+            </div>
+
+            <div class="column">
+              <div class="field">
+                <div class="label">Telefono:</div>
+                <input type="text">
+              </div>
+
+              <div class="field">
+                <div class="label">Celular:</div>
+                <input type="text">
+              </div>
+
+            </div>
+          </div>
+          <div class="field btns">
+            <button class="prev-2 prev">Volver</button>
+            <button class="next-2 next">Siguiente</button>
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="title">Politicas De Privacidad:</div>
+          <div class="columns">
+            <div class="column">
+
+              <div class="field">
+                <p>
+                  Los datos de carácter personal que nos remita a través de este formulario electrónico de contacto
+                  quedarán incorporados en nuestor sistemas de información. 
+                  Garantizamos la confidencialidad de todos los datos facilitados. Además de los mínimos establecidos
+                  por
+                  la legislación, la recogida y tratamiento de los datos se efectúan bajo niveles de seguridad que
+                  impiden la pérdida o manipulación de los datos.
+                  <br><br>
+                  Además, en cualquier momento, y de acuerdo con lo dispuesto en la Ley 34/2002, de 11 de julio, de
+                  Servicios de la Sociedad de la Información y de Comercio Electrónico, puede manifestar su deseo de NO
+                  recibir comunicaciones comerciales electrónicas, de forma sencilla y gratuita, enviando una solicitud
+                  por correo
+                </p>
+
+              </div>
+
+              <div class="field">
+                {{!-- <div class="label">Parentesco:</div>
+                <input type="text"> --}}
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                {{!-- <div class="label">Nombre:</div>
+                <input type="text"> --}}
+              </div>
+              <div class="field">
+                {{!-- <div class="label">Parentesco:</div>
+                <input type="text"> --}}
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                {{!-- <div class="label">Nombre:</div>
+                <input type="text"> --}}
+              </div>
+              <div class="field">
+                {{!-- <div class="label">Parentesco:</div>
+                <input type="text"> --}}
+              </div>
+            </div>
+          </div>
+          <div class="field btns">
+            <button class="prev-3 prev">Volver</button>
+            <button class="submit">Aceptar Y Registrarse</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/script/multistep.js"></script>
+<link rel="stylesheet" href="./css/multistep.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

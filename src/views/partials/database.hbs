@@ -1,0 +1,17 @@
+<h1>Conexiones de base de datos</h1>
+<p>Las bases de datos contienen datos empresariales que graban los flujos de mensaje desplegados y a los que se accede a través de los mismos. Debe crear conexiones desde el nodo de integración a la base de datos utilizando ODBC o JDBC.</p>
+<p>Una conexión a base de datos es un archivo de configuración donde se especifica los detalles físicos de una base de datos como por ejemplo el tipo de base de datos y la versión, y los parámetros que permiten una conexión JDBC desde el IBM® Integration Toolkit a la base de datos.</p>
+<p>Las conexiones ODBC a bases de datos las gestiona internamente el nodo de integración y, por consiguiente, las opciones de agrupación de conexiones configurables disponibles en el controlador ODBC no se deben utilizar.</p>
+<p>El nodo de integración requiere una conexión a la base de datos para cada nombre de origen de datos (DSN) al que se hace referencia en el flujo de mensajes, aunque diferentes DSN se resuelvan en la misma base de datos física.Si el flujo de mensajes esta operando en modalidad coordinada, también se requiere una conexión XA para cada DSN que participe en el flujo coordinado global.</p>
+
+<code>//****** Ejemplo script de conexion mysql ********** </code><br>
+<code>$DB_Server = "localhost";        //su servidor MySQL</code><br>
+<code>$DB_Username = "usuario_admin";    //su usuario MySQL</code><br>
+<code>$DB_Password = "miclave";        //su contraseña MySQL</code><br>
+<code>$DB_DBName = "usuario_basedatos";       //su base de datos MySQL</code><br>
+<code>$administracion = mysql_connect($DB_Server, $DB_Username, $DB_Password);</code><br>
+<code>mysql_select_db($DB_DBName, $administracion);</code><br>
+<code>?></code><br>
+<code>//*****  FIN DEL SCRIPT ************************</code>
+
+

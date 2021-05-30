@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,td {
+  border: solid 1px black;
+  padding: 1%;
+  background-color: white;
+}
+th {
+  background-color: blue;
+  color: white;
+  margin-bottom: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2em;
+  width: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+
+.subtittle{
+  text-align:center;
+}
+p {
+  font-size: 1.5em;
+  text-align: justify;
+  font: bold;
+}
+.parrafo {
+  padding: 5%;
+}
+.bioimg {
+  width: 100%;
+  padding-top: 30%;
+}

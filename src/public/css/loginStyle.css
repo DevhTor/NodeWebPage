@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("../Img/FondoLogin.jpg") no-repeat center top;
+    background: url("../img/FondoLogin.jpg") no-repeat center top;
     background-size: cover;
     height: 100vh;
     font-family: sans-serif;

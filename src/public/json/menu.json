@@ -46,14 +46,14 @@
 
     {
         "titulo":"Practica 3",
-        "link":"/reservas",
+        "link":"/banreservas",
         "hijos":
         
             [
                 {
                     
                     "titulo": "Menu Dinamico",
-                    "link": "/menu"
+                    "link": "/menudinamico"
                     
                 },
 
@@ -63,8 +63,8 @@
                 },
 
                 {
-                    "titulo": "Reservas",
-                    "link":"/reservas"
+                    "titulo": "BanReservas",
+                    "link":"/banreservas"
                 }
                 
             ]
@@ -78,7 +78,7 @@
             [
                 {
                     "titulo": "Form Multipagina",
-                    "link": "/form-multipagina"
+                    "link": "/form-multipagina?#"
                 },
 
                 {
@@ -91,7 +91,7 @@
 
     {
         "titulo":"Practica 6",
-        "link":"/contactos",
+        "link":"/xml",
         "hijos":
         
             [
@@ -112,7 +112,7 @@
 
                 {
                     "titulo": "DataBase",
-                    "link": "/bd"
+                    "link": "/database"
                 },
                 
                 {

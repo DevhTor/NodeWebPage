@@ -3,7 +3,7 @@
   }
   nav {
     background: #1d85fc;
-    position: relative;
+    
   }
 
   nav ul {
@@ -53,17 +53,20 @@
   /*Encabezado*/
 
   .Temas {
-    padding: 10px;
-    font-size: 1.8em;
+    font-size: 2em;
     text-decoration: none;
+    float: right;
+    padding-top: 2em;
+    padding-right: 1em;
+    color: rgb(15, 15, 15);
+    
   }
 
-  .Temas {
-    color: rgb(15, 15, 15);
-  }
 
   .Encabezado {
     padding-bottom: 20px;
+    
+    
   }
 
   .Temas:hover {

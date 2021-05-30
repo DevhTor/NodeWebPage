@@ -1,0 +1,33 @@
+
+.container{
+    text-align: center; 
+    background-color: darkslateblue; 
+     
+}
+
+fieldset{
+    float: left;
+    background-color: darkslateblue; 
+}
+
+.contact-form{
+    padding-top: 2%; 
+    width:40em;
+}
+
+.qr{
+    width:12.65em;
+}
+
+h1{
+    color: white;
+}
+
+label, legend{
+    color: white;
+}
+.campo{
+   margin-top: 2%;
+}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/loginStyle.css">
+</head>
+<body>
+   <div class="login-box">
+       <img class="userImg" src="../img/user.png" alt="" >
+       <h1>Iniciar Sesion</h1>
+       <form action="/login" method="POST">
+           <label for="userName">Usuario:</label>
+           <input type="text" placeholder="Usuario" id="userName" name="username">
+
+           <label for="password">Contraseña:</label>
+           <input type="password" placeholder="Contraseña" id="password" name="password">
+
+            <input type="submit" class="submitButton" id="submitButton" value="Aceptar">
+
+           <a href="#">¿Olvido Su Contraseña?</a>
+           <a href="#">Registrarse</a>
+       </form>
+   </div> 
+           
+    <script src="script/loginScript.js"></script>
+    
+    
+    
+</body>
+</html>
