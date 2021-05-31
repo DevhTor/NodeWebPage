@@ -12,7 +12,7 @@ const mysql = require('mysql');
 const app = express();
 
 //settings
-app.set("port", process.env.PORT || 5000); //si existe un puerto usalo sino usa 4000
+app.set("port", process.env.PORT || 3000); //si existe un puerto usalo sino usa 4000
 app.set("views", path.join(__dirname, "views")); //define la ruta de la carpeta views
 app.engine(
   ".hbs",
