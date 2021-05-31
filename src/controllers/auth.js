@@ -11,14 +11,6 @@ const db = mysql.createConnection({
 exports.login = async (req, res)=>{
     console.log(req.body);
     try {
-        
-        db.connect((error)=>{
-          if(error){
-            console.log(error);
-          }else{
-            console.log('Database Conected')
-          }
-        });
 
         const {username, password} = req.body;
         
