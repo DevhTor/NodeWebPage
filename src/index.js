@@ -45,20 +45,20 @@ app.use(require("./routes/cedulaservice.js"));
 
 //database
 
-// const db = mysql.createConnection({
-//   host: process.env.DATABASE_HOST,
-//   user: process.env.DATABASE_USER,
-//   password: process.env.DATABASE_PASSWORD,
-//   database: process.env.DATABASE
-// });
+const db = mysql.createConnection({
+  host: process.env.DATABASE_HOST,
+  user: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,
+  database: process.env.DATABASE
+});
 
-// db.connect((error)=>{
-//   if(error){
-//     console.log(error);
-//   }else{
-//     console.log('Database Conected')
-//   }
-// });
+db.connect((error)=>{
+  if(error){
+    console.log(error);
+  }else{
+    console.log('Database Conected')
+  }
+});
 
 //public
 app.use(express.static(path.join(__dirname, "public")));
